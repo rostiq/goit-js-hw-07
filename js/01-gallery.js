@@ -30,10 +30,10 @@ function createUrl(event) {
     `,
     {
         onClose: (instance) => {
-            window.removeEventListener('keydown', closeOnEsc);
+            document.removeEventListener('keydown', closeOnEsc);
         },
         onShow: (instance) => {
-            window.addEventListener('keydown', closeOnEsc);
+            document.addEventListener('keydown', closeOnEsc);
         }
     });
     instance.show();
