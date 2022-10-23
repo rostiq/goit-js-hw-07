@@ -1,2 +1,2 @@
-# goit-js-hw-07
+https://rostiq.github.io/goit-js-hw-07/
  
